@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE5A6D414BEB490006BB5E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D314BEB490006BB5E1 /* UIKit.framework */; };
+		0EE5A6D614BEB490006BB5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D514BEB490006BB5E1 /* Foundation.framework */; };
+		0EE5A6D814BEB490006BB5E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D714BEB490006BB5E1 /* CoreGraphics.framework */; };
+		0EE5A6DE14BEB490006BB5E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5A6DC14BEB490006BB5E1 /* InfoPlist.strings */; };
+		0EE5A6E014BEB490006BB5E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6DF14BEB490006BB5E1 /* main.m */; };
+		0EE5A6E414BEB490006BB5E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E314BEB490006BB5E1 /* AppDelegate.m */; };
+		0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */; };
+		0EE5A6EA14BEB491006BB5E1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */; };
+		0EE5A6ED14BEB491006BB5E1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE5A6D314BEB490006BB5E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EE5A6D514BEB490006BB5E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EE5A6D714BEB490006BB5E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EE5A6DB14BEB490006BB5E1 /* Restaurants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Restaurants-Info.plist"; sourceTree = "<group>"; };
+		0EE5A6DD14BEB490006BB5E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EE5A6DF14BEB490006BB5E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0EE5A6E114BEB490006BB5E1 /* Restaurants-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Restaurants-Prefix.pch"; sourceTree = "<group>"; };
+		0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0EE5A6E314BEB490006BB5E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0EE5A6E614BEB491006BB5E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0EE5A6E814BEB491006BB5E1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MasterViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0EE5A6EB14BEB491006BB5E1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE5A6CC14BEB490006BB5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE5A6D414BEB490006BB5E1 /* UIKit.framework in Frameworks */,
+				0EE5A6D614BEB490006BB5E1 /* Foundation.framework in Frameworks */,
+				0EE5A6D814BEB490006BB5E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE5A6C414BEB490006BB5E1 = {
+			isa = PBXGroup;
+			children = (
+				0EE5A6D914BEB490006BB5E1 /* Restaurants */,
+				0EE5A6D214BEB490006BB5E1 /* Frameworks */,
+				0EE5A6D014BEB490006BB5E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EE5A6D014BEB490006BB5E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE5A6D214BEB490006BB5E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5A6D314BEB490006BB5E1 /* UIKit.framework */,
+				0EE5A6D514BEB490006BB5E1 /* Foundation.framework */,
+				0EE5A6D714BEB490006BB5E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EE5A6D914BEB490006BB5E1 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */,
+				0EE5A6E314BEB490006BB5E1 /* AppDelegate.m */,
+				0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */,
+				0EE5A6E814BEB491006BB5E1 /* MasterViewController.h */,
+				0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */,
+				0EE5A6EB14BEB491006BB5E1 /* DetailViewController.h */,
+				0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */,
+				0EE5A6DA14BEB490006BB5E1 /* Supporting Files */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		0EE5A6DA14BEB490006BB5E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5A6DB14BEB490006BB5E1 /* Restaurants-Info.plist */,
+				0EE5A6DC14BEB490006BB5E1 /* InfoPlist.strings */,
+				0EE5A6DF14BEB490006BB5E1 /* main.m */,
+				0EE5A6E114BEB490006BB5E1 /* Restaurants-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EE5A6CE14BEB490006BB5E1 /* Restaurants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE5A6F014BEB491006BB5E1 /* Build configuration list for PBXNativeTarget "Restaurants" */;
+			buildPhases = (
+				0EE5A6CB14BEB490006BB5E1 /* Sources */,
+				0EE5A6CC14BEB490006BB5E1 /* Frameworks */,
+				0EE5A6CD14BEB490006BB5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restaurants;
+			productName = Restaurants;
+			productReference = 0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE5A6C614BEB490006BB5E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0EE5A6C914BEB490006BB5E1 /* Build configuration list for PBXProject "Restaurants" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EE5A6C414BEB490006BB5E1;
+			productRefGroup = 0EE5A6D014BEB490006BB5E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE5A6CE14BEB490006BB5E1 /* Restaurants */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE5A6CD14BEB490006BB5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE5A6DE14BEB490006BB5E1 /* InfoPlist.strings in Resources */,
+				0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE5A6CB14BEB490006BB5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE5A6E014BEB490006BB5E1 /* main.m in Sources */,
+				0EE5A6E414BEB490006BB5E1 /* AppDelegate.m in Sources */,
+				0EE5A6EA14BEB491006BB5E1 /* MasterViewController.m in Sources */,
+				0EE5A6ED14BEB491006BB5E1 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EE5A6DC14BEB490006BB5E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE5A6DD14BEB490006BB5E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE5A6E614BEB491006BB5E1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EE5A6EE14BEB491006BB5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EE5A6EF14BEB491006BB5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EE5A6F114BEB491006BB5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restaurants/Restaurants-Prefix.pch";
+				INFOPLIST_FILE = "Restaurants/Restaurants-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EE5A6F214BEB491006BB5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restaurants/Restaurants-Prefix.pch";
+				INFOPLIST_FILE = "Restaurants/Restaurants-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE5A6C914BEB490006BB5E1 /* Build configuration list for PBXProject "Restaurants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE5A6EE14BEB491006BB5E1 /* Debug */,
+				0EE5A6EF14BEB491006BB5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE5A6F014BEB491006BB5E1 /* Build configuration list for PBXNativeTarget "Restaurants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE5A6F114BEB491006BB5E1 /* Debug */,
+				0EE5A6F214BEB491006BB5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EE5A6C614BEB490006BB5E1 /* Project object */;
+}
