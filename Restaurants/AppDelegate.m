@@ -5,6 +5,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Restaurant.h"
 
 @implementation AppDelegate
 
@@ -12,6 +13,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //Hooks for initial class
+    Restaurant* r = [Restaurant new];
+    
     // Override point for customization after application launch.
     return YES;
 }

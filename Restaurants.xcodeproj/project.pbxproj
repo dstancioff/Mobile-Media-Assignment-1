@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E02F6BD14CD10E300C3EAE8 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */; };
 		0EE5A6D414BEB490006BB5E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D314BEB490006BB5E1 /* UIKit.framework */; };
 		0EE5A6D614BEB490006BB5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D514BEB490006BB5E1 /* Foundation.framework */; };
 		0EE5A6D814BEB490006BB5E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D714BEB490006BB5E1 /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 		0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE5A6D314BEB490006BB5E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EE5A6D514BEB490006BB5E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 		0EE5A6D914BEB490006BB5E1 /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */,
+				0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */,
 				0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */,
 				0EE5A6E314BEB490006BB5E1 /* AppDelegate.m */,
 				0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */,
@@ -169,6 +174,7 @@
 				0EE5A6E414BEB490006BB5E1 /* AppDelegate.m in Sources */,
 				0EE5A6EA14BEB491006BB5E1 /* MasterViewController.m in Sources */,
 				0EE5A6ED14BEB491006BB5E1 /* DetailViewController.m in Sources */,
+				0E02F6BD14CD10E300C3EAE8 /* Restaurant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +219,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
@@ -231,7 +237,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -280,6 +286,7 @@
 				0EE5A6F214BEB491006BB5E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
