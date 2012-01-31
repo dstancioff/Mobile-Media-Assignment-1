@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E02F6BD14CD10E300C3EAE8 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */; };
+		0EBB31D714D7729D009EB91D /* congee-bowery.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EBB31D614D7729D009EB91D /* congee-bowery.jpeg */; };
 		0EE5A6D414BEB490006BB5E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D314BEB490006BB5E1 /* UIKit.framework */; };
 		0EE5A6D614BEB490006BB5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D514BEB490006BB5E1 /* Foundation.framework */; };
 		0EE5A6D814BEB490006BB5E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D714BEB490006BB5E1 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
 		0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		0EBB31D614D7729D009EB91D /* congee-bowery.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "congee-bowery.jpeg"; sourceTree = "<group>"; };
 		0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE5A6D314BEB490006BB5E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EE5A6D514BEB490006BB5E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 		0EE5A6D914BEB490006BB5E1 /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				0EBB31D614D7729D009EB91D /* congee-bowery.jpeg */,
 				0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */,
 				0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */,
 				0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */,
@@ -160,6 +163,7 @@
 			files = (
 				0EE5A6DE14BEB490006BB5E1 /* InfoPlist.strings in Resources */,
 				0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */,
+				0EBB31D714D7729D009EB91D /* congee-bowery.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
